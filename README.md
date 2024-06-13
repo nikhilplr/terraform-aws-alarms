@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 module "Cloudwatch_Alarm" {
-  source      = "https://github.com/nikhilplr/terraform-aws-alarms?ref=v1.0.0"
+  source      = "git@github.com:nikhilplr/terraform-aws-alarms.git?ref=v1.0.0"
   project     = "myproject"
   environment = "dev"
 
